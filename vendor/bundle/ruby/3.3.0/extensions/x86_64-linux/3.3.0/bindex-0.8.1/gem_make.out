@@ -1,0 +1,18 @@
+current directory: /home/mimi/workspace/dpro/text/assignment_18/cdp_web_web_aws_deploy_task/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+/home/mimi/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/mimi/workspace/dpro/text/assignment_18/cdp_web_web_aws_deploy_task/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240704-23169-9zll6s sitelibdir\=./.gem.20240704-23169-9zll6s clean
+
+current directory: /home/mimi/workspace/dpro/text/assignment_18/cdp_web_web_aws_deploy_task/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240704-23169-9zll6s sitelibdir\=./.gem.20240704-23169-9zll6s
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/mimi/workspace/dpro/text/assignment_18/cdp_web_web_aws_deploy_task/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240704-23169-9zll6s sitelibdir\=./.gem.20240704-23169-9zll6s install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20240704-23169-9zll6s/skiptrace/internal
+
+current directory: /home/mimi/workspace/dpro/text/assignment_18/cdp_web_web_aws_deploy_task/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240704-23169-9zll6s sitelibdir\=./.gem.20240704-23169-9zll6s clean

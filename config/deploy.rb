@@ -17,7 +17,7 @@ lock "~> 3.10"    # 1
      on roles(:db) do
        with rails_env: fetch(:rails_env) do
          within current_path do
-           execute :bundle, :exec, :rake, 'db:seed'
+           execute :bundle, :exec, :rake#, 'db:seed'
          end
        end
      end

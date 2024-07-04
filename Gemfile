@@ -46,6 +46,7 @@ group :development do
   gem "capistrano-rails", "~> 1.6", require: false # 追記
   gem 'capistrano-safe-deploy-to' # 追記
   gem 'capistrano3-unicorn'   # 追記
+  gem 'capistrano-rbenv', '~> 2.2'
 end
 
 group :test do
