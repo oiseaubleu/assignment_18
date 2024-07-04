@@ -53,7 +53,7 @@ server "35.73.30.146",
   user: "dic_sample",
   roles: %w{web db app},
   ssh_options: {
-    user: "ec2-user", # overrides user setting above
+    user: "dic_sample", # overrides user setting above
     keys: %w(/home/mimi/.ssh/dic_sample.pem),
     forward_agent: false,
     auth_methods: %w(publickey password)
